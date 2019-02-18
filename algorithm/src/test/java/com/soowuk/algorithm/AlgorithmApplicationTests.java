@@ -1,16 +1,22 @@
 package com.soowuk.algorithm;
 
-import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.context.junit4.SpringRunner;
+import com.soowuk.algorithm.sort.BubbleSort;
+import com.soowuk.algorithm.sort.InsertionSort;
+import com.soowuk.algorithm.sort.QuickSort;
+import com.soowuk.algorithm.sort.SelectionSort;
 
-@RunWith(SpringRunner.class)
-@SpringBootTest
 public class AlgorithmApplicationTests {
 
-	@Test
-	public void contextLoads() {
+	public static void main(String[] args) {
+		int[] sortTest01 = {55, 07, 78, 12, 42};
+//		BubbleSort.sort(sortTest01);
+//		SelectionSort.sort(sortTest01);
+//		InsertionSort.sort(sortTest01);
+		QuickSort.sort(sortTest01);
+		
+		for(int i=0; i<sortTest01.length; i++) {
+			System.out.println(sortTest01[i]);
+		}
 	}
 
 }
