@@ -20,7 +20,7 @@
  * N is an integer within the range [1..2,147,483,647].
  */
 
-package com.soowuk.algorithm.codility;
+package com.soowuk.algorithm.codility.iterations;
 
 
 public class BinaryGap {

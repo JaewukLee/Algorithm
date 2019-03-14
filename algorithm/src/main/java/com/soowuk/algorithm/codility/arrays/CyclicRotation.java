@@ -36,7 +36,7 @@
  * 
  */
 
-package com.soowuk.algorithm.codility;
+package com.soowuk.algorithm.codility.arrays;
 
 public class CyclicRotation {
 	public int[] solution(int[] A, int K) {

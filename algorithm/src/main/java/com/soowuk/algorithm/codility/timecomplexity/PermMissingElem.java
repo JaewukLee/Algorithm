@@ -17,7 +17,7 @@
  * each element of array A is an integer within the range [1..(N + 1)].
  */
 
-package com.soowuk.algorithm.codility;
+package com.soowuk.algorithm.codility.timecomplexity;
 
 public class PermMissingElem {
 	public static int solution(int[] A) {

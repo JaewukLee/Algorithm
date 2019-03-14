@@ -1,4 +1,4 @@
-package com.soowuk.algorithm.codility;
+package com.soowuk.algorithm.codility.countingelements;
 
 public class FrogRiverOne {
 	public static int solution(int X, int A[]) {

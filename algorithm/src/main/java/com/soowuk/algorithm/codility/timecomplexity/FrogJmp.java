@@ -22,7 +22,7 @@
  * X ≤ Y.
  */
 
-package com.soowuk.algorithm.codility;
+package com.soowuk.algorithm.codility.timecomplexity;
 
 public class FrogJmp {
 	public int solution(int X, int Y, int D) {

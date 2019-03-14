@@ -31,7 +31,7 @@
  *  - all but one of the values in A occur an even number of times.
  */
 
-package com.soowuk.algorithm.codility;
+package com.soowuk.algorithm.codility.arrays;
 
 import java.util.HashMap;
 import java.util.Iterator;

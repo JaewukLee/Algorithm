@@ -1,4 +1,4 @@
-package com.soowuk.algorithm.codility;
+package com.soowuk.algorithm.codility.timecomplexity;
 
 public class TapeEquilibrium {
 	public int solution(int[] A) {

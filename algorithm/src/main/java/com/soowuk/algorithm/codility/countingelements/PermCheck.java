@@ -1,4 +1,4 @@
-package com.soowuk.algorithm.codility;
+package com.soowuk.algorithm.codility.countingelements;
 
 public class PermCheck {
 	public static int solution(int[] A) {
