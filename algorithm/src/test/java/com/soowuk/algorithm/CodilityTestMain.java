@@ -1,20 +1,16 @@
 package com.soowuk.algorithm;
 
-import com.soowuk.algorithm.codility.prefixsums.GenomicRangeQuery;
+import com.soowuk.algorithm.codility.prefixsums.CountDiv;
 
 public class CodilityTestMain {
 
 	public static void main(String[] args) {
-		GenomicRangeQuery grq = new GenomicRangeQuery();
-		int[] A = {0,1,0,1,1};
-		String S = "G";
-		int[] P = {0};
-		int[] Q = {0};
-		int[] result = grq.solution(S, P, Q);
+		CountDiv cd = new CountDiv();
 		
-		for(int r : result) {
-			System.out.println(r);
-		}
+		int A = 11, B = 345, K = 17;
+//		int A = 6, B = 11, K = 2;
+//		int A = 10, B = 10, K = 7;
+		System.out.println(cd.solution(A, B, K));
 		
 	}
 }
