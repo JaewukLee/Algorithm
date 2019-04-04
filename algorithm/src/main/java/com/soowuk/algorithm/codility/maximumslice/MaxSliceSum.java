@@ -9,11 +9,10 @@ public class MaxSliceSum {
 			return 0;
 		}
 		
-		int lower = Integer.MIN_VALUE;
-		int partSum = lower;
-		int maxSum = lower;
-		for(int i=0; i<N; i++) {
-			partSum = Math.max(lower, partSum + A[i]);
+		int partSum = A[0];
+		int maxSum = A[0];
+		for(int i=1; i<N; i++) {
+			partSum = Math.max(A[i], partSum + A[i]);
 			maxSum = Math.max(maxSum, partSum);
 		}
 		
